@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #99BCC4;
+    --lighter-shade: #C9DDE1;
+    --darker-shade: #6C999F;
+    --lighter-tint: #E2EEF1;
+    --darker-tint: #08535D;
+    --darkest-tint: #02333C;
+    --complementary-color: #C49999;
+    --complementary-2: #C499B3;
+    --complementary-3: #99A3C4;
+
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/computer.jpg);
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: var(--primary-color);
+
+}
+
+.avatar-picture {
+    width: 100px;
+    height: 100px;
+}
+
+.name-header {
+    font-size: 36px;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: var(--lighter-tint);
+}
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: var(--dark-blue);
+    color: var(--light-blue);
+}
+
+.hero-landing {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
