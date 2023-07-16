@@ -5,15 +5,12 @@
     --lighter-tint: #E2EEF1;
     --darker-tint: #08535D;
     --darkest-tint: #02333C;
-    --complementary-color: #C49999;
-    --complementary-2: #C499B3;
-    --complementary-3: #99A3C4;
+
 
 
 }
 body {
-    display: flex;
-    flex-direction: column;
+    
     font-family: Arial;
     font-size: 16px;
     margin: 0;
@@ -34,9 +31,29 @@ header {
 
 }
 
+aside {
+    flex: 1;
+    padding: 20px;
+    color: var(--darker-tint);
+}
+
+section {
+    flex: 3;
+    padding: 20px;
+    color: var(--darker-shade);
+    background-color: #99BCC4;
+    align-items: start;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .avatar-picture {
     width: 100px;
     height: 100px;
+    margin-left: 50px;
 }
 
 .name-header {
@@ -47,6 +64,7 @@ nav ul{
     display:flex;
     justify-content: space-between;
     min-width: 300px;
+    margin-right: 50px;
 }
 
 nav a {
@@ -59,16 +77,39 @@ nav a:hover {
     color: var(--lighter-tint);
 }
 
-  .main-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 60px;
-    background: var(--dark-blue);
-    color: var(--light-blue);
-}
-
 .hero-landing {
     width: 100%;
     height: 300px;
     padding: 20px;
 }
+
+.content {
+    height: 150px;
+    width: 100%;
+    background-color: var(--darkest-tint);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.content h1 {
+    margin-right: 50px;
+}
+
+.list-content {
+    flex: 3;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    font-weight: bold;
+    width: 300px;
+    background-color: #02333C;
+}
+
+.list-content h2 {
+    padding: 120px 0;
+    font-size: 26px;
+    margin-left: 50px;
+}
+
