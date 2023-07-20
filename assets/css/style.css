@@ -155,6 +155,10 @@ button img {
     text-align: center;
 }
 
+.contact-info nav {
+    justify-content: space-between;
+}
+
 .contact-info h3 {
     color: var(--darker-tint);
 }
@@ -171,8 +175,15 @@ footer {
 }
   
 @media screen and (max-width: 767px) {
+    .sections{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
     aside {
         border: none;
+        border-bottom: 2px solid;
     }
 
     .products {
