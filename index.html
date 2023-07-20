@@ -10,82 +10,104 @@
 </head>
 
 <body>
-  <!-- This is the header of the site -->
-  <header class="hero-landing">
-    <div>
-      <img src="./assets/images/avatar.png" alt="Profile Picture" class="avatar-picture">
-    </div>
-    <h1 class="name-header">Carlos Macias</h1>
-    <div>
-      <nav>
-        <a href="about-me">about me</a>
-        <a href="resume">resume</a>
-        <a href="projects">projects</a>
-        <a href="contact-me">contact me</a>
-       </nav>
-    </div>
-  </header>
-
-  <section class="sub-header">
-    <p>In the vast expanse of the digital realm, where ideas intermingle and creativity knows no bounds, we find ourselves immersed in a world of infinite possibilities. </p>
-  </section>
-
-  <!-- This section is the ABOUT ME section -->
-  <main>
-    <aside>
-      <h2>about me</h2>
-    </aside>
-
-    <section class="about-me">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem. Massa sed elementum tempus egestas sed sed. Diam quam nulla porttitor massa id neque aliquam vestibulum. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Morbi tincidunt augue interdum velit euismod in pellentesque. Id porta nibh venenatis cras sed felis eget velit aliquet.
-        <br> <br> Aliquam sem et tortor consequat id porta nibh. Tincidunt praesent semper feugiat nibh sed pulvinar. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Elementum sagittis vitae et leo duis ut diam quam nulla. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Justo eget magna fermentum iaculis eu non. Ut etiam sit amet nisl purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
-      </p>
+    <!-- This is the header of the site -->
+    <header class="hero-landing">
+      <div>
+        <img src="./assets/images/avatar.png" alt="Profile Picture" class="avatar-picture">
+      </div>
+      <h1 class="name-header">Carlos Macias</h1>
+      <div>
+        <nav>
+          <a href="#about">about me</a>
+          <a href="#resume">resume</a>
+          <a href="#projects">projects</a>
+          <a href="#contact">contact me</a>
+         </nav>
+      </div>
+    </header>
+  
+    <section class="sub-header">
+      <p>In the vast expanse of the digital realm, where ideas intermingle and creativity knows no bounds,<br><br> we find ourselves immersed in a world of infinite possibilities. </p>
     </section>
-  </main>
+  
+    <!-- ABOUT ME section -->
+    <section class="sections">
+      <aside>
+        <h2 id="about">about me</h2>
+      </aside>
+  
+      <div class="about-text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu non diam phasellus vestibulum lorem. Massa sed elementum tempus egestas sed sed. Diam quam nulla porttitor massa id neque aliquam vestibulum. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Morbi tincidunt augue interdum velit euismod in pellentesque. Id porta nibh venenatis cras sed felis eget velit aliquet.
+          <br> <br> Aliquam sem et tortor consequat id porta nibh. Tincidunt praesent semper feugiat nibh sed pulvinar. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Elementum sagittis vitae et leo duis ut diam quam nulla. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Justo eget magna fermentum iaculis eu non. Ut etiam sit amet nisl purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.
+        </p>
+      </div>
+    </section>
 
-  <!-- This section is the PROJECTS section-->
-  <main>
+  <!-- PROJECTS section-->
+  <section class="sections">
     <aside>
-      <h2>projects</h2>
+      <h2 id="projects">projects</h2>
     </aside>
     <!-- Projects Cards -->
     <div class="products">
-      <section class="card">
-        <h3>Horiseon</h3>
-        <img src="./assets/images/Horiseon.png" alt="Horiseon Website"/>
-        <p>description</p>
-      </section>
-      <section class="card">
-        <h3>Coffee Corner</h3>
-        <img src="./assets/images/Coffee-Corner.png" alt="Coffee Corner Website"/>
-        <p>description</p>
-      </section>
-      <section class="card">
-        <h3>Downton Optics</h3>
-        <img src="./assets/images/Downton Optics.png" alt="Downton Optics Website"/>
-        <p>description</p>
-      </section>
-      <section class="card">
-        <h3>Foodie</h3>
-        <img src="./assets/images/Foodie.png" alt="Foodie App"/>
-        <p>description</p>
-      </section>
-      <section class="card">
-        <h3>Tipewrter</h3>
-        <img src="./assets/images/Tipewrterpng.png" alt="Tipewrter Website"/>
-        <p>description</p>
-      </section>
-    </div>
-  </main>
+      <div class="card">
+        <div id="primary-card">
+          <button class="button-img">
+            <img src="./assets/images/Horiseon.png" alt="Coffee Corner Website"/>
+            <div class="name">
+              <h3>Horiseon</h3>
+              <p>HTML/CSS</p>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <button class="button-img">
+          <img src="./assets/images/background.jpeg" alt="Coffee Corner Website"/>
+          <div class="name">
+            <h3>coming soon</h3>
+            <p></p>
+          </div>
+        </button>
+      </div>
+      <div class="card">
+        <button class="button-img">
+          <img src="./assets/images/background.jpeg" alt="Coffee Corner Website"/>
+          <div class="name">
+            <h3>coming soon</h3>
+            <p></p>
+          </div>
+        </button>
+      </div>
+      <div class="card">
+        <button class="button-img">
+          <img src="./assets/images/background.jpeg" alt="Coffee Corner Website"/>
+          <div class="name">
+            <h3>coming soon</h3>
+            <p></p>
+          </div>
+        </button>
+      </div>
+      <div class="card">
+        <button class="button-img">
+          <img src="./assets/images/background.jpeg" alt="Coffee Corner Website"/>
+          <div class="name">
+            <h3>coming soon</h3>
+            <p></p>
+          </div>
+        </button>
+      </div>
+    </div>      
+  </section>
 
-  <main>
+  <section class="sections">
     <aside>
-      <h2>contact me</h2>
+      <h2 id="contac">contact me</h2>
     </aside>
 
-    <section>
-      <nav class="contact-info">
+    <div class="contact-info">
+      <nav>
         <div>
           <a href="+1 (000) 000-0000">+1 (000) 000-0000</a>
           <h3>mobile phone</h3>
@@ -103,12 +125,10 @@
           <h3>twitter</h3>
         </div>
       </nav>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer>
-    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-  </footer>
-  
+
+
 </body>
 </html>
